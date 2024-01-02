@@ -11,20 +11,12 @@ let anımatıonData = [
     id: 2,
     name: "Mehemmed2",
   },
-
-  {
-    id: 2,
-    name: "Mehemmed2",
-  },  {
-    id: 2,
-    name: "Mehemmed2",
-  },
 ];
 
 anımatıonData.map((item, key) => {
   animationContainer.innerHTML += `
   <div class="animation-card">
-            <img src="" alt=${item.imgAlt}>
+            <img src="file.png" alt=${item.imgAlt}>
             <div class="animation-card-hover">
                 <p>${item.name}</p>
                 <span>${item.id}</span>
